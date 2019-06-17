@@ -1,7 +1,6 @@
 package guru.springframework.tdmpetclinic.module;
 
-public class Vet implements person {
+public class Vet extends Person {
 
-    public Vet() {
-    }
+
 }
