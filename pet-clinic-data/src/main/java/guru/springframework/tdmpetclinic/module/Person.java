@@ -1,6 +1,6 @@
 package guru.springframework.tdmpetclinic.module;
 
-public class Person {
+public class Person extends BaseEntity {
 
     private String FirstName;
     private String LastName;
