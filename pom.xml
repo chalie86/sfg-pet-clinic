@@ -4,7 +4,7 @@
 
     <groupId>guru.springframework</groupId>
     <artifactId>tdm-pet-clinic</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>0.0.5</version>
 
     <modules>
         <module>pet-clinic-data</module>
@@ -13,7 +13,7 @@
 
     <packaging>pom</packaging>
 
-    <name>sfg-pet-clinic</name>
+    <name>tdm-pet-clinic</name>
     <description>SFG Pet Clinic Project</description>
 
     <parent>
@@ -97,7 +97,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:chalie86/tdm-pet-clinic.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>scm:git:git@github.com:chalie86/tdm-pet-clinic.git</tag>
     </scm>
 
 </project>
