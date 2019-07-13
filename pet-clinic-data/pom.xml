@@ -3,7 +3,7 @@
     <parent>
         <artifactId>tdm-pet-clinic</artifactId>
         <groupId>guru.springframework</groupId>
-        <version>0.0.5-SNAPSHOT</version>
+        <version>0.0.5</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -78,4 +78,8 @@
             </plugin>
         </plugins>
     </build>
+
+  <scm>
+    <tag>tdm-pet-clinic-0.0.5</tag>
+  </scm>
 </project>

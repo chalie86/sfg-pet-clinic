@@ -97,7 +97,8 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:chalie86/tdm-pet-clinic.git</developerConnection>
-        <tag>scm:git:git@github.com:chalie86/tdm-pet-clinic.git</tag>
+        <tag>tdm-pet-clinic-0.0.5</tag>
     </scm>
+
 
 </project>
