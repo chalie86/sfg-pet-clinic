@@ -1,6 +1,7 @@
 package guru.springframework.tdmpetclinic.services.Map;
 
 import guru.springframework.tdmpetclinic.module.Owner;
+import guru.springframework.tdmpetclinic.module.Pet;
 import guru.springframework.tdmpetclinic.services.OwnerService;
 import guru.springframework.tdmpetclinic.services.PetService;
 import guru.springframework.tdmpetclinic.services.PetTypeService;
