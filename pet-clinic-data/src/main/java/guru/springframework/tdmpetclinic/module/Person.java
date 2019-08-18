@@ -1,15 +1,29 @@
 package guru.springframework.tdmpetclinic.module;
 
-public class Person extends BaseEntity {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-    private String FirstName;
-    private String LastName;
+import javax.persistence.Column;
+import javax.persistence.MappedSuperclass;
 
-    public String getFirstName() {
-        return FirstName;
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@MappedSuperclass
+public class Person extends BaseEntity  {
+
+    public Person(Long id, String firstName, String lastName) {
+        super(id);
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public void setFirstName(String firstName) {
-        FirstName = firstName;
-    }
+    @Column(name = "first_name")
+    private String firstName;
+
+    @Column(name = "last_name")
+    private String lastName;
 }
