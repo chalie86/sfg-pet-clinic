@@ -1,5 +1,7 @@
 package guru.springframework.tdmpetclinic.services.Map;
 
+import guru.springframework.tdmpetclinic.module.Speciality;
+import guru.springframework.tdmpetclinic.services.SpecialtyService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 

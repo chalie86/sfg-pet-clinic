@@ -1,4 +1,4 @@
-package guru.springframework.tdmpetclinic.reposiories;
+package guru.springframework.tdmpetclinic.repositories;
 
 import guru.springframework.tdmpetclinic.module.Speciality;
 import org.springframework.data.repository.CrudRepository;

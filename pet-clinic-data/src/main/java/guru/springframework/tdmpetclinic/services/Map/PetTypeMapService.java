@@ -1,6 +1,7 @@
 package guru.springframework.tdmpetclinic.services.Map;
 
 import guru.springframework.tdmpetclinic.module.PetType;
+import guru.springframework.tdmpetclinic.services.PetTypeService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
