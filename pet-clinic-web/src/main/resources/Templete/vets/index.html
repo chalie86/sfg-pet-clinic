@@ -16,7 +16,7 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:each="vet : ${vets}">
+    <tr th:each="vet : ${vet}">
         <td th:text="${vet.firstName + ' ' + vet.lastName}"></td>
         <td><span th:each="speciality : ${vet.specialities}"
                   th:text="${speciality.description + ' '}" /> <span
