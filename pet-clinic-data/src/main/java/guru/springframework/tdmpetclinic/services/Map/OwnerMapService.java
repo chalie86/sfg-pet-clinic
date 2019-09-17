@@ -17,7 +17,7 @@ import java.util.Set;
 
 @Service
 @Profile({"default", "map"})
-public abstract class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
+public  class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;
     private final PetService petService;
